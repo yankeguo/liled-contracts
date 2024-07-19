@@ -12,7 +12,8 @@ contract LiLED is AccessControlDefaultAdminRules {
     constructor() AccessControlDefaultAdminRules(3 days, msg.sender) {
         // set initial price to 50 IOTX
         _setPrice(50 * 10 ** 18);
-        // grant the deployer the withdrawal role
+        // grant the deployer the withdrawal role and the price setup role
+        _grantRole(PRICESETUP_ROLE, msg.sender);
         _grantRole(WITHDRAWAL_ROLE, msg.sender);
     }
 
