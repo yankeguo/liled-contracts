@@ -19,7 +19,7 @@ task("liled:deploy", "deploy LiLED contract", async (taskArgs, hre) => {
 
 module.exports = {
   solidity: {
-    version: "0.8.26",
+    version: "0.8.24",
     settings: {
       optimizer: {
         enabled: true,
