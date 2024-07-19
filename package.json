@@ -1,0 +1,25 @@
+{
+  "name": "@yankeguo/liled-contracts",
+  "version": "0.0.0",
+  "scripts": {
+    "format": "prettier --write ."
+  },
+  "author": {
+    "name": "GUO YANKE",
+    "email": "hi@yankeguo.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.6",
+    "@nomicfoundation/hardhat-verify": "^2.0.8",
+    "@openzeppelin/contracts": "^5.0.2",
+    "@yankeguo/hardhat-trezor": "^0.1.4",
+    "ethers": "^6.13.1",
+    "hardhat": "^2.22.6"
+  }
+}
